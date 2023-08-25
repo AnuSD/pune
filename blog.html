@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<style>
+
+    .container {
+      display: flex; 
+      align-items: center; 
+    }
+    
+    .text {
+      margin-left: 20px;
+    }
+    p{
+
+    font-size: 18px;
+    line-height: 1.625;
+    font-family: gotham,Arial,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    img{
+        max-width: 100%;
+    }
+    @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .text {
+                margin: 20px;
+            }
+            footer {
+            text-align: center;
+            padding: 20px;
+        }
+    }
+
+</style>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" id="checkbtn" style="font-size:24px; margin-left: 5px; color: aliceblue;">
+            <i class="fas fa-bars" ></i>
+        </label>
+        <!-- <label class="logo">DesignX</label> -->
+        <a href="index.html">
+          <img src="rove.png" alt="" height="200" class="logo"></a>
+          <ul>
+            <li><a class="active" href="blog.html">about</a></li>
+            <li><a href="pune.html">blog</a></li>
+            <li><a href="travel.html">travel tips</a></li>
+            <li><a href="#">contact</a></li>
+            <li><a href="#">Feedback</a></li>
+            
+        </ul>
+    </nav><br>
+    
+    
+    <h1 style="text-align: center;">Welcome to My Travel Blog</h1>
+ 
+  <div class="container" style="margin: auto;">
+    <img src="image.jpg" alt="Your Image Description" width="401" height="489">
+    <div class="text">
+      <h2>About Me.</h2><br><br>
+      <p>Hello, I'm Belkune Anuradha. I'm passionate about traveling and exploring new places. My love for adventure has taken me to various places, and I'm excited to share my experiences and travel tips with you through this blog.</p>
+  <p>When I'm not traveling, you can find me in singing song,capturing moments . I hope my blog inspires you to embark on your own unforgettable journeys.</p>
+  <p>My love for travel began during my college years, Exploring new places, trying local cuisines, and meeting people from diverse backgrounds have been some of the most enriching experiences of my life.</p>
+  <p>This blog is a platform where I aim to share my travel stories, provide practical tips, and inspire fellow wanderers to embark on their own transformative journeys. I believe that travel has the power to broaden horizons, foster empathy, and create lifelong memories.</p>
+  <br>
+  <p>I was the captain of my own ship.I think Every saturday/sunday was new and different.</p>
+    </div>
+  </div><br>
+
+
+
+
+
+    <footer>
+        <p>DO YOU HAVE ANY DOUBTS?</p>
+          <p>Contact us at<br>
+          <a href="mailto:hege@example.com">anuradhabelkune09@gmail.com</a></p>
+        </footer>
+</body>
+</html>

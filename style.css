@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: black;
+    height: 150px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform:uppercase;  
+}
+
+section{
+    background: aliceblue;
+    background-size: cover;
+    height: calc(230vh - 100px);
+}
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .img{
+    height: 400px;
+    width: 400PX;
+  }
+  footer {
+    
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    margin-top: 50px
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;!important
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .3);
+    /* margin-top: 100PX; */
+    /* margin: 0px; */
+    /* text-shadow: 1px 2px 3px; */
+}
+.title{
+    font-family: 'fjalla one',Impact,sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+body h1 {
+    font-weight: 300;
+    margin: 20px 30px;
+}
+#mainheader{
+    border-bottom: 2px solid #000; 
+    width: 100%;   
+    background: rgba(255,255,255,.9);
+    top: 0PX;
+    left: 0px;
+    height: 100%;
+}
+#mainheader ::after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+}
+#top-stories {
+      width: 1000px;
+      margin: auto;
+      margin-top: 20px;
+}
+ article{
+    width: 301PX;
+    display: inline-block;
+    border: 1px solid;
+    padding: 10px;
+    margin: 0px;
+    box-shadow: 2PX 2PX 6PX rgba(0, 0, 0, .3);
+    transition: box-shadow 500ms, background 3s;
+    margin-left: 22px;
+    margin-left: 25px;
+ }
+ article:hover{
+    box-shadow: 5PX 5PX 20PX rgba(0, 0, 0, .7);
+    background: #aaa;
+}
+ 
+ article img{
+    width: 100%;
+    height: 100px;
+    margin-left: 10px each; 
+    margin-top: 10px;
+ }
+ .article-img {
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    
+ }
+ article:active{
+    opacity: .4;
+ }
+ #site-title {
+    font-family: Lumanosimo;}
+    a :hover{
+        font-size: large;
+        color: green;
+    }
+.more-link {
+    font-family: italic ;
+}
+a {
+    text-decoration: blink;
+}
+p {
+    letter-spacing: 2px;
+}
+.my-input{
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px.20px;
+    border-radius: 10px 20px 2px 50px;
+    border: 1px solid transparant;
+    
+}
+.my-input:focus{
+    background: #78f115;
+    color: rgba(33, 239, 171, 0.345);
+    outline: none;
+    border: 1px solid #000;
+}
+.article-img{
+    /* border-top-left-radius: 10px 50px; */
+    height: 200px;
+    width: 280px;
+}
+ .my-text{
+    height: 600px;
+    max-height: 570px;
+    overflow: scroll;
+    border: 2px solid #000;
+ }
+ 
+ 
