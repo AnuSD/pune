@@ -20,6 +20,7 @@
      /* margin-left: 22px;
      margin-left: 25px; */
      border-radius: 12px;
+     height: ;
   }
   .article:hover{
      box-shadow: 5PX 5PX 20PX rgba(0, 0, 0, .7);
@@ -43,11 +44,11 @@
      opacity: .4;
   }
 
-  @media (max-width: 900px) {
   .card img {
-    height: 100%; /* Reduce image width for larger viewports */
+    width: 100%;
+    object-fit: cover; /* Maintain aspect ratio while filling the card */
   }
-}
+
 </style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -158,8 +159,8 @@
             <img src="`+currentValue.image+`" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">`+currentValue.name+`</h5>
-              <p class="card-text">`+currentValue.desc+`</p>
-              <a href="`+currentValue.read_more+`" class="btn btn-primary">Read more</a>
+              <p class="card-text">`+currentValue.desc+` <a href="`+currentValue.read_more+`" class="more-link">read more......</a> </p>
+              
             </div>
         </div>`;
 
