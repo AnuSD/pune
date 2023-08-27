@@ -3,90 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
-<style>
-
-    .container {
-      display: flex; 
-      align-items: center; 
-    }
-    
-    .text {
-      margin-left: 20px;
-    }
-    p{
-
-    font-size: 18px;
-    line-height: 1.625;
-    font-family: gotham,Arial,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-    img{
-        max-width: 100%;
-    }
-    @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-            }
-            .text {
-                margin: 20px;
-            }
-            footer {
-            text-align: center;
-            padding: 20px;
-        }
-    }
-
-</style>
 <body>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" id="checkbtn" style="font-size:24px; margin-left: 5px; color: aliceblue;">
-            <i class="fas fa-bars" ></i>
-        </label>
-        <!-- <label class="logo">DesignX</label> -->
-        <a href="index.html">
-          <img src="rove.png" alt="" height="200" class="logo"></a>
-          <ul>
-            <li><a class="active" href="blog.html">about</a></li>
-            <li><a href="index.html">blog</a></li>
-            <li><a href="travel.html">travel tips</a></li>
-            <li><a href="#">contact</a></li>
-            <li><a href="feedback.html">Feedback</a></li>
-            
-        </ul>
-    </nav><br>
-    
-    
-    <h1 style="text-align: center;">Welcome to My Travel Blog</h1>
- 
-  <div class="container" style="margin: auto;">
-    <img src="image.jpg" alt="Your Image Description" width="401" height="489">
-    <div class="text">
-      <h2>About Me.</h2><br><br>
-      <p>Hello, I'm Belkune Anuradha. I'm passionate about traveling and exploring new places. My love for adventure has taken me to various places, and I'm excited to share my experiences and travel tips with you through this blog.</p>
-  <p>When I'm not traveling, you can find me in singing song,capturing moments . I hope my blog inspires you to embark on your own unforgettable journeys.</p>
-  <p>My love for travel began during my college years, Exploring new places, trying local cuisines, and meeting people from diverse backgrounds have been some of the most enriching experiences of my life.</p>
-  <p>This blog is a platform where I aim to share my travel stories, provide practical tips, and inspire fellow wanderers to embark on their own transformative journeys. I believe that travel has the power to broaden horizons, foster empathy, and create lifelong memories.</p>
-  <br>
-  <p>I was the captain of my own ship.I think Every saturday/sunday was new and different.</p>
-    </div>
-  </div><br>
-
-
-
-
-
-    <footer>
-        <p>DO YOU HAVE ANY DOUBTS?</p>
-          <p>Contact us at<br>
-          <a href="mailto:hege@example.com">anuradhabelkune09@gmail.com</a></p>
-        </footer>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Navbar w/ text</a> -->
+          <a href="index.html"><img src="/logo/rove.png" alt="" width="240"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="about.html"><h4>About</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blog.html"><h4>Blog</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tips.html"><h4>Travel Tips</h4></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html"><h4>Feedback</h4></a>
+              </li>
+            </ul>
+            <!-- <span class="navbar-text">
+              Navbar text with an inline element
+            </span> -->
+          </div>
+        </div>
+      </nav>
 </body>
 </html>
