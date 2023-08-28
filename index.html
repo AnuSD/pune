@@ -104,49 +104,49 @@
                 "image": "photo/gan.jpeg",
                 "name": "DAGDUSHETH HALWAI GANPATI MANDIR",
                 "desc": "Shreemant Dagdusheth Halwai Ganpati – the most endearing deity to the devotees. Shreemant Dagdusheth hal",
-                "read_more": ""
+                "read_more": "dag.html"
               },
               {
                 "image": "photo/laal.jpeg",
                 "name": "LAAL MAHAL",
                 "desc": "Lal Mahal is one of the famous attractions and historical monument located at Pune. In this you will learn more about the Lal Mahal which is located near",
-                "read_more": ""
+                "read_more": "laal.html"
               },
               {
                 "image": "photo/SIGHGAD.jpg",
                 "name": "SINHAGAD FORT",
                 "desc": "Sinhagad is an ancient hill fortress located at around 49 km southwest of the city of Pune, India. Previously known as Kondhana",
-                "read_more": ""
+                "read_more": "sign.html"
               },
               {
                 "image": "photo/SHIVNERI.jpg",
                 "name": "SHIVNERI",
                 "desc": "Shivaneri fort is part of Junnar forest area near to Malshej Ghat. Junnar Taluka, Pune district, Maharashtra, India. The construction",
-                "read_more": ""
+                "read_more": "shiv.html"
               },
               {
                 "image": "photo/imglo.jpg",
                 "name": "LOHAGAD",
                 "desc": "Lohagad Fort is -one of the numerous hill forts in Maharashtra, India. Interestingly, this fort rises to an elevation of about",
-                "read_more": ""
+                "read_more": "loh.html"
               },
               {
                 "image": "photo/IMG20221002122051.jpg",
                 "name": "KUNDLIKA VALLEY",
                 "desc": "The river Kundalika, one of the West flowing rivers, in Maharashtra originates in the Sahyadri hills of the Western Ghats near",
-                "read_more": ""
+                "read_more": "kund.html"
               },
               {
                 "image": "photo/lawasa.jpg",
                 "name": "LAWASA CITY",
                 "desc": "Located at a distance of about 65 km from Pune, the beautifully planned city of Lavasa is surrounded by the majestic Western Ghats.",
-                "read_more": ""
+                "read_more": "lav.html"
               },
               {
                 "image": "photo/kundma.jpg",
                 "name": "KUNDMALA",
                 "desc": "Kund Mala, situated 30 kilometers from Pune, caught my attention while I was in search of lesser-explored locations near Pune.",
-                "read_more": ""
+                "read_more": "kundm.html"
               }
             ];
     
@@ -166,10 +166,12 @@
             <img src="`+currentValue.image+`" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">`+currentValue.name+`</h5>
-              <p class="card-text">`+currentValue.desc+` <a href="`+currentValue.read_more+`" class="more-link">read more......</a> </p>
+              
               
             </div>
         </div>`;
+
+        //<p class="card-text">`+currentValue.desc+` <a href="`+currentValue.read_more+`" class="more-link">read more......</a> </p>
 
         document.getElementById('card_div').appendChild(div);
 
